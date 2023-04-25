@@ -4,5 +4,5 @@
  # How To Use 
  1. Copy the file and paste it into the `include` folder
  2. Open macros.h in the `include` folder
- 3. Make a new line at line 1 and type `#include "gigaleak.h"
+ 3. Make a new line at line 1 and type `#include "gigaleak.h"`
  4. Compile the game and it should be complete
