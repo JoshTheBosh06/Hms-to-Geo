@@ -24,23 +24,28 @@
 #define RM_SOFT_SPRITE RM_SPRITE
 #define SCREEN_NEAR 100
 #define SCREEN_FAR 12800
-#define	CAM_FIELD	1
-#define	CAM_INSIDE	2
-#define	CAM_WATER	3
-#define	CAM_DUNGEON	4
-#define	CAM_TWOPLAY	5
-#define	CAM_VIEWING	6
-#define	CAM_BRIDGE	7
-#define	CAM_RIVER	8
-#define	CAM_BACK	9
-#define	CAM_CANNON	10
-#define	CAM_KUPPA	11
-#define	CAM_RAIL	12
-#define	CAM_FIX		13
-#define	CAM_PARALLEL	14
-#define	CAM_SLIDER	15
-#define	CAM_DUNGEON_O	16
-#define	CAM_SPIRAL	17
+
+// Camera Enums
+enum leakCamEnums {
+    NULL,
+    CAM_FIELD,
+    CAM_INSIDE,
+    CAM_WATER,
+    CAM_DUNGEON,
+    CAM_TWOPLAY,
+    CAM_VIEWING,
+    CAM_BRIDGE,
+    CAM_RIVER,
+    CAM_BACK,
+    CAM_CANNON,
+    CAM_KUPPA,
+    CAM_RAIL,
+    CAM_FIX,
+    CAM_PARALLEL,
+    CAM_SLIDER,
+    CAM_DUNGEON_O,
+    CAM_SPIRAL
+};
 
 // Hms(GeoLayout) headers for .hms file type
 #define	_msU32(dat) ((unsigned long)(dat*65536.0f))
